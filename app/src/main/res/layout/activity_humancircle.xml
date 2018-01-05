@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jobs.yic.humancircle">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/our_story"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/do_what_you_love"
+            app:srcCompat="@drawable/hello" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/working_in_multinational_corporations_made_us_realize_that_some_of_our_colleagues_did_not_love_their_jobs_bosses_clients_and_they_were_generally_not_content_they_were_complaining_and_pessimistic_many_times_could_not_wait_for_fridays_and_dreaded_monday_mornings_in_some_close_conversations_many_of_them_shared_with_us_that_if_they_had_a_second_chance_they_would_do_something_different_in_life_they_would_choose_a_life_and_career_of_passion_because_they_realized_that_money_and_a_stable_job_alone_do_not_bring_happiness_what_brings_that_satisfaction_and_fulfilment_is_doing_things_we_love_creating_positive_impact_and_sharing_our_gifts_and_talents_with_others_so_we_quit_our_jobs_and_here_we_are_we_started_human_circle_with_a_single_minded_determination_to_change_the_mindset_of_people_to_do_what_they_love_create_an_impactful_career_and_make_the_world_a_better_place_with_their_passion"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="@string/humans_of_human_circle"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/kamal_seth"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/founder_chief_happiness_officer"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/kamal_is_an_experience_design_professional_and_is_passionate_about_driving_the_dowhatyoulove_movement_globally_and_impact_the_young_generation_to_create_an_impact_he_has_delivered_entrepreneurship_leadership_development_programs_across_europe_and_asia"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/wioleta_burdzy_seth"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/co_founder_and_chief_operating_officer"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/wioleta_delivers_personal_growth_leadership_and_skill_development_workshops_and_life_coaching_to_a_diverse_set_of_audience_previously_she_was_a_specialist_in_human_resource_areas_like_training_recruitment_and_learning_and_development_she_has_worked_in_several_multi_national_companies_like_statoil_and_inditex_zara_etc"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+</ScrollView>
+

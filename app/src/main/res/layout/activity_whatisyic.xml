@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jobs.yic.whatis">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="What is YIC?"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.48"
+            android:adjustViewBounds="true"
+            android:contentDescription="Welcome"
+            app:srcCompat="@drawable/hello"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif"
+            android:text="@string/young_india_challenge_yic_is_a_two_day_experiential_national_event_for_the_top_creative_young_minds_to_engage_in_innovative_programs_that_will_broaden_their_mindset_and_move_them_closer_to_what_they_love_doing_participants_are_selected_from_across_the_country"
+            android:textColor="@android:color/background_light"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/what_is_yic"
+            app:srcCompat="@drawable/k" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/yic_is_an_opportunity_to_discover_and_explore_what_you_love_doing_by_taking_up_an_incredible_challenge_and_connecting_with_the_best_mentors_and_career_opportunities"
+            android:textColor="@android:color/background_light"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/it_is_an_opportunity_for_the_selected_youth_to_learn_grow_and_connect_with_the_top_industry_leaders_best_selling_authors_incredible_speakers_and_game_changing_entrepreneurs_to_gain_leverage_to_grow_their_network_and_career_selected_participants_meet_incredible_people_and_understand_how_to_turn_their_passion_into_a_successful_career_and_get_paid"
+            android:textColor="@android:color/background_light"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/do_what_you_love"
+            android:textColor="@color/colorPrimary"
+            android:textSize="36sp" />
+    </LinearLayout>
+</ScrollView>
